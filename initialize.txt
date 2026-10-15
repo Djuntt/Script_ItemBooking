@@ -1,0 +1,6 @@
+daijun@DAIdeMacBook-Pro Script % /opt/homebrew/bin/python3 -m venv Ticket
+daijun@DAIdeMacBook-Pro Script % source Ticket/bin/activate
+
+/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome \
+  --remote-debugging-port=9222 \
+  --user-data-dir="$HOME/popmart-chrome"
